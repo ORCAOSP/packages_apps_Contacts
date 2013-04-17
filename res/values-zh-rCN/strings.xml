@@ -75,6 +75,7 @@
     <string name="separatorJoinAggregateAll" msgid="7939932265026181043">"所有联系人"</string>
     <string name="contactsJoinedMessage" msgid="7208148163607047389">"已合并联系人"</string>
     <string name="menu_set_ring_tone" msgid="8728345772068064946">"设置铃声"</string>
+    <string name="menu_set_vib_ration">设置振动效果</string>
     <string name="menu_redirect_calls_to_vm" msgid="4181789196416396656">"所有来电转至语音信箱"</string>
     <string name="readOnlyContactWarning" msgid="7808825687289848259">"您无法删除只读帐户中的联系人，但可以在联系人列表中将他们隐藏。"</string>
     <string name="readOnlyContactDeleteConfirmation" msgid="2137170726670196909">"该联系人的信息中包含来自多个帐户的信息。来自只读帐户的信息将在您的联系人列表中隐藏，但不会删除。"</string>
@@ -193,10 +194,7 @@
     <string name="dialer_returnToInCallScreen" msgid="3719386377550913067">"返回正在进行的通话"</string>
     <string name="dialer_addAnotherCall" msgid="4205688819890074468">"添加通话"</string>
     <string name="callDetailTitle" msgid="5340227785196217938">"通话详情"</string>
-
-    <!-- Title bar for call stat detail screen -->
-    <string name="callStatsDetailTitle">通话统计数据详情</string>
-
+    <string name="callStatsDetailTitle">通话统计详情</string>
     <string name="toast_call_detail_error" msgid="7200975244804730096">"无法读取所请求呼叫的详细信息。"</string>
     <string name="type_incoming" msgid="6502076603836088532">"来电"</string>
     <string name="type_outgoing" msgid="343108709599392641">"外拨电话"</string>
@@ -206,7 +204,7 @@
     <string name="callBack" msgid="5498224409038809224">"回电"</string>
     <string name="callAgain" msgid="3197312117049874778">"重拨"</string>
     <string name="returnCall" msgid="8171961914203617813">"回拨"</string>
-    <string name="callDetailsDurationFormat" msgid="8157706382818184268">"<xliff:g id="MINUTES">%s</xliff:g> 分 <xliff:g id="SECONDS">%s</xliff:g> 秒"</string>
+    <string name="callDetailsDurationFormat" msgid="8157706382818184268">"<xliff:g id="minutes">%s</xliff:g> 分 <xliff:g id="seconds">%s</xliff:g> 秒"</string>
     <string name="favoritesFrequentContacted" msgid="6184232487472425690">"经常联系的人"</string>
     <string name="favoritesFrequentCalled" msgid="6128306889600696124">"经常呼叫的联系人"</string>
     <string name="add_contact_dlg_message_fmt" msgid="7986472669444326576">"将“<xliff:g id="EMAIL">%s</xliff:g>”添加到联系人？"</string>
@@ -298,7 +296,7 @@
     <string name="add_wait" msgid="3360818652790319634">"延长等待时间"</string>
     <string name="call_disambig_title" msgid="4392886850104795739">"选择号码"</string>
     <string name="call_settings" msgid="7666474782093693667">"设置"</string>
-    <string name="call_stats">通话统计数据</string>
+    <string name="call_stats">通话统计</string>
     <string name="call_stats_refresh">刷新</string>
     <string name="sms_disambig_title" msgid="5846266399240630846">"选择号码"</string>
     <string name="make_primary" msgid="5829291915305113983">"记住此选择"</string>
@@ -475,7 +473,7 @@
     <string name="custom_list_filter" msgid="7836035257402013957">"定义自定义视图"</string>
     <string name="contact_list_loading" msgid="5488620820563977329">"正在加载..."</string>
     <string name="activity_title_settings" msgid="5464130076132770781">"设置"</string>
-    <string name="activity_title_call_stats">通话统计数据</string>
+    <string name="activity_title_call_stats">通话统计</string>
     <string name="activity_title_contacts_filter" msgid="8275542497615516969">"要显示的联系人"</string>
     <string name="menu_settings" msgid="377929915873428211">"设置"</string>
     <string name="menu_help" msgid="5123887102216637725">"帮助"</string>
@@ -589,18 +587,16 @@
     <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"要呼叫语音信箱，请先关闭飞行模式。"</string>
     <string name="menu_export_database" msgid="2659719297530170820">"导出数据库文件"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"更多选项"</string>
-    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"展开或折叠姓名字段"</string>
-
     <string name="call_stats_nav_all">全部</string>
     <string name="call_stats_nav_incoming">来电</string>
-    <string name="call_stats_nav_outgoing">呼出</string>
+    <string name="call_stats_nav_outgoing">外拨</string>
     <string name="call_stats_nav_missed">未接</string>
-    <string name="call_stats_incoming">来电: <xliff:g id="percent">%d</xliff:g>%%</string>
-    <string name="call_stats_outgoing">呼出: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_incoming">来电： <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">外拨： <xliff:g id="percent">%d</xliff:g>%%</string>
     <string name="call_stats_missed">未接</string>
-    <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
-    <string name="call_stats_header_total">总计: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
-    <string name="call_stats_header_total_callsonly">总计: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_missed_percent">未接： <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">总数： <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">总数： <xliff:g id="call_count">%s</xliff:g></string>
     <string name="call_stats_filter_from">开始日期</string>
     <string name="call_stats_filter_to">结束日期</string>
     <string name="call_stats_filter_picker_title">过滤范围</string>
@@ -609,15 +605,15 @@
     <string name="date_qs_currentmonth">本月</string>
     <string name="date_qs_currentquarter">本季度</string>
     <string name="date_qs_currentyear">本年</string>
-    <string name="date_qs_lastweek">上周</string>
-    <string name="date_qs_lastmonth">上个月</string>
-    <string name="date_qs_lastquarter">上个季度</string>
-    <string name="date_qs_lastyear">去年</string>
+    <string name="date_qs_lastweek">上一周</string>
+    <string name="date_qs_lastmonth">上一月</string>
+    <string name="date_qs_lastquarter">上一季度</string>
+    <string name="date_qs_lastyear">上一年</string>
 
-    <string name="call_stats_date_filter">调整时间范围</string>
+    <string name="call_stats_date_filter">调节时间范围</string>
     <string name="call_stats_reset_filter">重置时间范围</string>
-    <string name="call_stats_sort_by_duration">以通话时间排序</string>
-    <string name="call_stats_sort_by_count">以通话次数排序</string>
+    <string name="call_stats_sort_by_duration">按通话时间排序</string>
+    <string name="call_stats_sort_by_count">按通话次数排序</string>
 
     <plurals name="hour">
         <item quantity="one">1 小时</item>
@@ -633,7 +629,8 @@
     </plurals>
 
     <plurals name="call">
-        <item quantity="one">1 个通话</item>
-        <item quantity="other">%d 个通话</item>
+        <item quantity="one">1 通话</item>
+        <item quantity="other">%d 通话</item>
     </plurals>
+    <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"展开或折叠姓名字段"</string>
 </resources>
