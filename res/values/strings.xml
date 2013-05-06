@@ -23,7 +23,7 @@
     <string name="people">People</string>
 
     <string name="t9_loading">Loading\u2026</string>
-    <string name="t9_default_sort">1</string>
+    <string name="t9_default_sort" translatable="false">1</string>
     <string name="t9_sort_title">T9 sorting mode</string>
     <string name="t9_sort_summary">Choose how to filter T9 results</string>
     <string name="t9_sort_name">Name matches first</string>
@@ -191,9 +191,6 @@
 
     <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
     <string name="menu_set_ring_tone">Set ringtone</string>
-
-    <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
-    <string name="menu_set_vib_ration">Set vibration</string>
 
     <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=30] -->
     <string name="menu_redirect_calls_to_vm">All calls to voicemail</string>
@@ -625,6 +622,9 @@
 
     <!-- Action string for returning a missed call in the call log -->
     <string name="returnCall">Return call</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details. For example "5 hrs 42 mins 28 secs" -->
+    <string name="callDetailsDurationFormat"><xliff:g id="hours" example="5">%s</xliff:g> hrs <xliff:g id="minutes" example="42">%s</xliff:g> mins <xliff:g id="seconds" example="28">%s</xliff:g> secs</string>
 
     <!-- The text displayed on the divider for the Favorites tab in People app indicating that items below it are frequently contacted [CHAR LIMIT = 39] -->
     <string name="favoritesFrequentContacted">Frequently contacted</string>
@@ -1887,6 +1887,9 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
          [CHAR LIMIT=NONE] -->
     <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
 
+    <string name="direct_call_title">Direct Call</string>
+    <string name="direct_call_summary">Picking up the phone calls the current dialled contact</string>
+
     <string name="call_stats_nav_all">All</string>
     <string name="call_stats_nav_incoming">Incoming</string>
     <string name="call_stats_nav_outgoing">Outgoing</string>
@@ -1958,4 +1961,9 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
          Middle Name, Last Name, Name Suffix).
          [CHAR LIMIT=NONE] -->
     <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
+
+    <!-- Blacklist functions -->
+    <string name="menu_add_to_blacklist">Add to blacklist</string>
+    <string name="toast_added_to_blacklist">%s added to blacklist.</string>
+
 </resources>
